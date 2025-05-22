@@ -14,4 +14,4 @@ if __name__ == "__main__":
     print(weather_agent.process_request("New York"))  # Output: The current weather in New York is Sunny with 25°C temperature. 
 
     reminder_agent = ReminderAgent()
-    print(reminder_agent.process_request("take a break", 0.1))       
+    print(reminder_agent.process_request("take a break please", 0.1))       
